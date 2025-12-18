@@ -51,13 +51,6 @@ a {
 	--bs-btn-font-size: 1rem;
 }
 
-:is(.about__picture, .process__card):not(:last-child) {
-	/* margin-block-end: 10px; */
-}
-.process__card:not(:last-child) {
-	margin-block-end: 10px;
-}
-
 /** Utility First **/
 .text-gray {
 	color: var(--gray);
@@ -175,16 +168,11 @@ a {
 	font-size: clamp(1rem, 0.951rem + 0.281dvw, 1.125rem);
 }
 
-@media (width >= 480px) {
+@media (width >= 576px) {
 	/** Process Section **/
 	.process__cards {
-		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1rem;
-	}
-
-	.process__card:not(:last-child) {
-		margin-block-end: 0;
 	}
 }
 
@@ -192,7 +180,6 @@ a {
 	/** Process Section **/
 	.process__cards {
 		grid-template-columns: repeat(4, 1fr);
-		gap: 0 1rem;
 	}
 }
 
