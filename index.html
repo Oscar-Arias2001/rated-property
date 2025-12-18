@@ -1,0 +1,2379 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="index, follow" />
+		<title>Rated Property</title>
+
+		<link
+			rel="icon"
+			type="image/png"
+			href="./images/favicon__images/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="./images/favicon__images/favicon.svg"
+		/>
+		<link rel="shortcut icon" href="./images/favicon__images/favicon.ico" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+
+	<body>
+		<!-- Header Section Starts -->
+		<header class="header sticky-top">
+			<!-- Navigation Starts -->
+			<nav class="navbar navbar-expand-lg border-bottom">
+				<div class="container-xl px-xl-0">
+					<a class="navbar-brand" href="#">
+						<img
+							class="d-block img-fluid object-fit-contain"
+							src="./images/logo.png"
+							alt="Rated property logo"
+							width="80"
+							height="59"
+						/>
+					</a>
+
+					<div
+						class="offcanvas offcanvas-end"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title fw-bolder" id="offcanvasNavbarLabel">
+								Rated Property
+							</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+						</div>
+
+						<div class="offcanvas-body">
+							<ul
+								class="navbar-nav justify-content-start align-items-lg-center flex-grow-1 pe-3"
+							>
+								<li class="nav-item">
+									<a
+										class="nav-link position-relative mx-lg-2 fw-medium"
+										aria-current="page"
+										href="#"
+										>Home</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a
+										class="nav-link position-relative mx-lg-2 fw-medium"
+										href="#about"
+										>About</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a
+										class="nav-link position-relative mx-lg-2 fw-medium"
+										href="#process"
+										>Process</a
+									>
+								</li>
+
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link position-relative dropdown-toggle mx-lg-2 fw-medium"
+										href="#"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Properties
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a class="dropdown-item" href="#properties">Forest 🏘️</a>
+										</li>
+										<li><a class="dropdown-item" href="#">Building 🏢</a></li>
+										<li><a class="dropdown-item" href="#">Village 🏠</a></li>
+										<li>
+											<hr class="dropdown-divider" />
+										</li>
+										<li>
+											<a class="dropdown-item" href="#contact"
+												>Book a Tour 📚</a
+											>
+										</li>
+									</ul>
+								</li>
+
+								<li class="nav-item">
+									<a
+										class="nav-link position-relative mx-lg-2 fw-medium"
+										href="#contact"
+										>Contact</a
+									>
+								</li>
+							</ul>
+
+							<button type="button" class="btn btn-dark btn-lg rounded-0">
+								Book a Tour
+							</button>
+						</div>
+					</div>
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+			</nav>
+			<!-- Navigation Ends -->
+		</header>
+		<!-- Header Section Starts -->
+
+		<!-- Hero Section Starts -->
+		<section class="hero py-5 py-lg-4">
+			<div class="hero__container container-xl px-xl-0">
+				<div class="row g-0 justify-content-center row-gap-3 row-gap-lg-0">
+					<div class="hero__information col-lg-6 pe-lg-2 py-lg-3">
+						<h1 class="hero__title fw-bold display-2 mb-4">
+							Each Home is Designed to fit your lifestyle.
+						</h1>
+
+						<p class="hero__paragraph paragraph mb-3">
+							Are you looking for a property that is modern and has a big, open
+							living room and kitchen? If so, these properties will be perfect
+							for you and your family.
+						</p>
+
+						<a
+							class="hero__button btn btn-dark btn-lg text-white rounded-0"
+							href="#properties"
+							>Explore Properties</a
+						>
+					</div>
+
+					<div class="hero__picture col-lg-6 overflow-hidden ps-lg-2">
+						<picture class="h-100">
+							<source srcset="./images/hero.webp" type="image/webp" />
+							<img
+								class="hero__image d-block img-fluid h-100 w-100 object-fit-cover object-position-center"
+								src="./images/hero.jpg"
+								alt="House in the forest image"
+								width="562"
+								height="477.27"
+							/>
+						</picture>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Hero Section Ends -->
+
+		<!-- Banner Section Starts -->
+		<div class="banner mt-4 py-4">
+			<!-- Banner Container Starts -->
+			<div class="banner__container container-xl px-xl-0">
+				<div
+					class="banner__display d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center row-gap-3 row-gap-lg-0"
+				>
+					<p
+						class="banner__paragraph fw-bold fs-4 m-0 text-center text-lg-start text-gray"
+					>
+						As seen on the world's best magazines
+						<br />
+						and media
+					</p>
+
+					<!-- Banner Companies Section Starts -->
+					<div
+						class="banner__companies d-flex flex-column flex-sm-row column-gap-sm-3 row-gap-3 row-gap-sm-0 justify-content-center align-items-center"
+					>
+						<div class="banner__logo">
+							<img
+								class="banner__image d-block img-fluid"
+								src="./images/banner__images/google.png"
+								alt="Google logo"
+								loading="lazy"
+							/>
+						</div>
+
+						<div class="banner__logo">
+							<img
+								class="banner__image d-block img-fluid"
+								src="./images/banner__images/uber.png"
+								alt="Uber logo"
+								loading="lazy"
+							/>
+						</div>
+
+						<div class="banner__logo">
+							<img
+								class="banner__image d-block img-fluid"
+								src="./images/banner__images/ubs.png"
+								alt="UBS logo"
+								loading="lazy"
+							/>
+						</div>
+
+						<div class="banner__logo">
+							<img
+								class="banner__image d-block img-fluid"
+								src="./images/banner__images/webflow.png"
+								alt="Webflow logo"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+					<!-- Banner Companies Section Ends -->
+				</div>
+			</div>
+			<!-- Banner Container Ends -->
+		</div>
+		<!-- Banner Section Ends -->
+
+		<!-- About Section Starts -->
+		<section class="about mt-4 container-xl px-xl-0 scroll-top" id="about">
+			<!-- About Display Starts -->
+			<div class="about__display row g-0 row-gap-3 row-gap-lg-0">
+				<!-- About Gallery Starts -->
+				<div class="about__gallery d-grid col-lg-6 pe-lg-2 order-1 order-lg-0">
+					<div class="overflow-hidden h-100" id="sliderVerticalOne">
+						<div
+							class="about__slider sliderUp d-flex flex-column"
+							id="sliderVerticalChildOne"
+						>
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/1.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/1.jpg"
+										alt="House image 1"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/2.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/2.jpg"
+										alt="House image 2"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/3.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/3.jpg"
+										alt="House image 3"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/4.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/4.jpg"
+										alt="House image 4"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/5.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/5.jpg"
+										alt="House image 5"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/6.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/6.jpg"
+										alt="House image 6"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/7.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/7.jpg"
+										alt="House image 7"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/8.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/8.jpg"
+										alt="House image 8"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/9.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/9.jpg"
+										alt="House image 9"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/10.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/10.jpg"
+										alt="House image 10"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+						</div>
+					</div>
+
+					<div class="overflow-hidden h-100" id="sliderVerticalTwo">
+						<div
+							class="about__slider sliderDown d-flex flex-column"
+							id="sliderVerticalChildTwo"
+						>
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/11.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/11.jpg"
+										alt="House image 11"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/12.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/12.jpg"
+										alt="House image 12"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/13.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/13.jpg"
+										alt="House image 13"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/14.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/14.jpg"
+										alt="House image 14"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/15.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/15.jpg"
+										alt="House image 15"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/16.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/16.jpg"
+										alt="House image 16"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/17.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/17.jpg"
+										alt="House image 17"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/18.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/18.jpg"
+										alt="House image 18"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/19.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/19.jpg"
+										alt="House image 19"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+
+							<div class="about__picture w-100">
+								<picture>
+									<source
+										srcset="./images/about__images/20.webp"
+										type="image/webp"
+									/>
+									<img
+										class="about__image d-block img-fluid object-fit-cover object-position-center w-100 h-100"
+										src="./images/about__images/20.jpg"
+										alt="House image 20"
+										decoding="async"
+									/>
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- About Gallery Ends -->
+
+				<!-- About Information Starts -->
+				<section
+					class="about__information col-lg-6 h-100 ps-lg-2 order-0 order-lg-1 d-flex flex-column justify-content-center"
+				>
+					<p class="about__paragraph paragraph fw-medium m-0">About</p>
+					<h2 class="about__title display-5 fw-bold mb-3">Rated Property</h2>
+
+					<p class="about__paragraph paragraph mb-4">
+						Rated property represents a special connection between the people
+						and places. We know how important is to buy a home, but we also
+						understand that buying a house can be stressful. That's why we work
+						hard to ensure that every step you make toward owning a new home is
+						smooth and enjoyable.
+					</p>
+
+					<p class="about__paragraph paragraph fw-medium">
+						Come in and visit our beautiful new houses!<br />
+						We love sharing with you!
+					</p>
+
+					<div
+						class="about__buttons mt-4 d-flex flex-column flex-sm-row align-items-center row-gap-2 row-gap-sm-0 column-gap-sm-3"
+					>
+						<a
+							class="about__button btn btn-dark btn-lg text-white rounded-0 border-2 w-75"
+							href="#properties"
+							>Explore Properties</a
+						>
+						<a
+							class="about__button btn btn-outline-dark btn-lg rounded-0 border-2 w-75"
+							href="#contact"
+							>Contact Us</a
+						>
+					</div>
+				</section>
+				<!-- About Information Ends -->
+			</div>
+			<!-- About Display Ends -->
+		</section>
+		<!-- About Section Ends -->
+
+		<!-- Process Section Starts -->
+		<section class="process mt-4 scroll-top" id="process">
+			<!-- Process Container Starts -->
+			<div class="process__container container-xl px-xl-0">
+				<div
+					class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-center mb-5"
+				>
+					<h2
+						class="process__title fw-bold h2 m-0 text-center text-lg-start mb-3 mb-lg-0"
+					>
+						A simple & clear process<br />
+						to make it work.
+					</h2>
+
+					<p class="process__paragraph m-0 text-center text-lg-start">
+						Buying a house can be stressful. We want to make the<br />
+						process easy and painless for you, so that you have<br />
+						time to focus on make it a home.
+					</p>
+				</div>
+
+				<div class="process__cards row-gap-3">
+					<div class="process__card card w-100 col-3">
+						<img
+							src="./images/card__images/card-1.jpg"
+							class="card-img-top img-fluid d-block object-fit-cover object-position-center"
+							alt="..."
+							loading="lazy"
+							width="271.93"
+							height="203.95"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">Search For available Houses</h5>
+							<p class="card-text">
+								You are a busy person, so we'll make your home search easy and
+								fun, while we also provide a detailed report that tells you
+								every detail of your house and neighborhood.You can find a home
+								you love, and get into it fast. Find the perfect home for you.
+							</p>
+						</div>
+					</div>
+
+					<div class="process__card card w-100 col-3">
+						<img
+							src="./images/card__images/card-2.jpg"
+							class="card-img-top img-fluid d-block object-fit-cover object-position-center"
+							alt="..."
+							loading="lazy"
+							width="271.93"
+							height="203.95"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">Book a Home Tour & Go Shopping</h5>
+							<p class="card-text">
+								It's time to take scrolling through online real estate listings
+								to the next level & actually see some homes in person. Make the
+								most of your walk-through, since you might only see a home once
+								in person before you make an offer.
+							</p>
+						</div>
+					</div>
+
+					<div class="process__card card w-100 col-3">
+						<img
+							src="./images/card__images/card-3.jpg"
+							class="card-img-top img-fluid d-block object-fit-cover object-position-center"
+							alt="..."
+							loading="lazy"
+							width="271.93"
+							height="203.95"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">Welcome to Your New Home</h5>
+							<p class="card-text">
+								Purchasing the perfect home is a major investment. Owning your
+								own home is an important milestone in life. Homeownership
+								provides home owners with a sense of security and financial
+								stability.
+							</p>
+						</div>
+					</div>
+
+					<div class="process__card card w-100 col-3">
+						<img
+							src="./images/card__images/card-4.jpg"
+							class="card-img-top img-fluid d-block object-fit-cover object-position-center"
+							alt="..."
+							loading="lazy"
+							width="271.93"
+							height="203.95"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">Time to Move into Your Home</h5>
+							<p class="card-text">
+								A home is the foundation of our life and happiness. It's where
+								we spend most of your time. Owning a house is a lifetime
+								investment that could be passed on for generations, so make sure
+								you take care of it so that your home lasts as long as you need
+								it to.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Process Container Ends -->
+		</section>
+		<!-- Process Section Ends -->
+
+		<!-- Features Section Starts -->
+		<section class="features mt-4 py-4 py-lg-5">
+			<!-- Features Container Starts -->
+			<div
+				class="features__container container-xl px-xl-0 d-grid d-lg-flex align-items-lg-center justify-content-lg-start"
+			>
+				<div class="features__content px-2 px-lg-0 pe-lg-2">
+					<h2 class="features__title display-5 text-white fw-bold">Why Us?</h2>
+
+					<p class="features__paragraph paragraph text-white">
+						We are the best way to find your dream home.
+					</p>
+
+					<div class="features__cards d-grid">
+						<div class="feature bg-white p-2 rounded-3">
+							<div class="m-1">
+								<img
+									src="./images/feature-1.svg"
+									alt="Shield with check icon"
+									width="35"
+									height="35"
+								/>
+							</div>
+							<h3 class="fs-5">Trusted By Thousands</h3>
+
+							<p class="m-0">Thousands of satisfied customers.</p>
+						</div>
+
+						<div class="feature bg-white p-2 rounded-3">
+							<div class="m-1">
+								<img
+									src="./images/feature-2.svg"
+									alt="House icon"
+									width="35"
+									height="35"
+								/>
+							</div>
+							<h3 class="fs-5">Free Mortgage Services</h3>
+
+							<p class="m-0">Personalized advice on mortgage services.</p>
+						</div>
+
+						<div class="feature bg-white p-2 rounded-3">
+							<div class="m-1">
+								<img
+									src="./images/feature-3.svg"
+									alt="Clock icon"
+									width="35"
+									height="35"
+								/>
+							</div>
+							<h3 class="fs-5">Life Time Assistance</h3>
+
+							<p class="m-0">Ongoing assistance to improve your property.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Features Container Ends -->
+		</section>
+		<!-- Features Section Ends -->
+
+		<!-- Properties Section Starts -->
+		<section class="properties mt-4 scroll-top" id="properties">
+			<!-- Properties Container Starts -->
+			<div class="properties__container container-xl px-xl-0">
+				<p class="properties__paragraph paragraph fw-medium m-0">Popular</p>
+				<h2 class="properties__title display-5 fw-bold mb-3">
+					Property Residences
+				</h2>
+
+				<!-- Properties Display Starts -->
+				<div class="properties__display d-grid">
+					<article class="property card rounded-0">
+						<img
+							src="./images/card__images/property-1.jpg"
+							class="property__image d-block img-fluid card-img-top rounded-0 object-fit-cover object-position-center"
+							alt="Modern house in Downtown, Boston"
+							loading="lazy"
+							width="368.27"
+							height="250"
+						/>
+
+						<div class="property__body card-body">
+							<h5
+								class="property__title card-title fw-semibold d-flex align-items-center column-gap-1"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="13"
+										height="22"
+										viewBox="0 0 13 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.99803 9.65555C4.09921 8.93444 3.16699 8.18889 3.16699 7.02778C3.16699 5.69556 4.45678 4.76667 6.61493 4.76667C8.88801 4.76667 9.73084 5.80556 9.80746 7.33333H12.6297C12.5403 5.23111 11.1994 3.3 8.53045 2.67667V0H4.69941V2.64C2.222 3.15333 0.229862 4.69333 0.229862 7.05222C0.229862 9.87556 2.66896 11.2811 6.23183 12.1C9.42436 12.8333 10.0629 13.9089 10.0629 15.0456C10.0629 15.8889 9.43713 17.2333 6.61493 17.2333C3.98428 17.2333 2.9499 16.1089 2.80943 14.6667H0C0.153242 17.3433 2.24754 18.8467 4.69941 19.3478V22H8.53045V19.3722C11.0206 18.92 13 17.5389 13 15.0333C13 11.5622 9.89686 10.3767 6.99803 9.65555Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								<data value="550000" aria-label="Price 550 thousand dollars"
+									>550,000</data
+								>
+							</h5>
+							<p
+								class="property__subtitle card-subtitle mb-3 text-body-secondary d-flex align-items-center column-gap-1 fw-medium"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="12"
+										height="15"
+										viewBox="0 0 12 15"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6 0C4.40928 0.00184311 2.88425 0.623288 1.75944 1.72801C0.634626 2.83274 0.001883 4.33054 6.38338e-06 5.89286C-0.00189883 7.16958 0.422723 8.41167 1.20873 9.42857C1.20873 9.42857 1.37237 9.64018 1.3991 9.67071L6 15L10.6031 9.66804C10.6271 9.63964 10.7913 9.42857 10.7913 9.42857L10.7918 9.42696C11.5774 8.41051 12.0019 7.169 12 5.89286C11.9981 4.33054 11.3654 2.83274 10.2406 1.72801C9.11575 0.623288 7.59072 0.00184311 6 0ZM6 8.03571C5.56848 8.03571 5.14665 7.91004 4.78785 7.67458C4.42905 7.43912 4.1494 7.10445 3.98427 6.71289C3.81913 6.32134 3.77592 5.89048 3.86011 5.47481C3.94429 5.05913 4.15209 4.67731 4.45722 4.37763C4.76236 4.07794 5.15112 3.87386 5.57435 3.79117C5.99758 3.70849 6.43627 3.75093 6.83494 3.91312C7.23362 4.0753 7.57437 4.34996 7.81411 4.70235C8.05385 5.05474 8.18182 5.46904 8.18182 5.89286C8.18109 6.46096 7.95099 7.00559 7.54198 7.4073C7.13297 7.80901 6.57843 8.03501 6 8.03571Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								Downtown, Boston
+							</p>
+
+							<div
+								class="property__features d-flex flex-column justify-content-center row-gap-2 column-gap-3 mb-3"
+							>
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="14"
+											viewBox="0 0 16 14"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M13.5 6C14.1347 5.9999 14.7457 6.24123 15.209 6.67504C15.6724 7.10885 15.9534 7.70265 15.995 8.336L16 8.5V13.5C16.0002 13.6249 15.9537 13.7455 15.8695 13.8378C15.7853 13.9301 15.6696 13.9876 15.5452 13.9989C15.4207 14.0102 15.2966 13.9745 15.1972 13.8988C15.0977 13.8231 15.0303 13.7129 15.008 13.59L15 13.5V11H1V13.5C1.00023 13.6249 0.953671 13.7455 0.869492 13.8378C0.785312 13.9301 0.669613 13.9876 0.545178 13.9989C0.420743 14.0102 0.29659 13.9745 0.197168 13.8988C0.0977463 13.8231 0.0302602 13.7129 0.00799993 13.59L2.96809e-08 13.5V8.5C-9.77163e-05 7.86528 0.241233 7.25429 0.67504 6.79095C1.10885 6.32762 1.70265 6.04664 2.336 6.005L2.5 6H13.5ZM4.5 2.96809e-08H11.5C12.1347 -9.77163e-05 12.7457 0.241233 13.209 0.67504C13.6724 1.10885 13.9534 1.70265 13.995 2.336L14 2.5V5H12V4.5C12 4.38297 11.959 4.26964 11.8841 4.17974C11.8092 4.08984 11.7051 4.02906 11.59 4.008L11.5 4H9C8.88297 3.99996 8.76964 4.04097 8.67974 4.11589C8.58984 4.19081 8.52907 4.29489 8.508 4.41L8.5 4.5V5H7.5V4.5C7.50004 4.38297 7.45903 4.26964 7.38411 4.17974C7.30919 4.08984 7.20511 4.02906 7.09 4.008L7 4H4.5C4.38297 3.99996 4.26964 4.04097 4.17974 4.11589C4.08984 4.19081 4.02906 4.29489 4.008 4.41L4 4.5V5H2V2.5C1.9999 1.86528 2.24123 1.25429 2.67504 0.790955C3.10885 0.327621 3.70265 0.0466377 4.336 0.00500014L4.5 2.96809e-08Z"
+												fill="#000"
+												fill-opacity="0.75"
+											/>
+										</svg>
+									</span>
+
+									6 Bedrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												opacity="0.75"
+												d="M1 12C1.00086 12.4199 1.09039 12.8348 1.26271 13.2176C1.43504 13.6005 1.68629 13.9426 2 14.2216V15C3 15 2.40623 14.9062 2.5 15H4C4.09377 14.9062 4 14.6326 4 14.5L3.5 15H4L12 15L14 15V14.2216C14.3137 13.9426 14.565 13.6005 14.7373 13.2176C14.9096 12.8348 14.9991 12.4199 15 12V10.5001H1V12ZM15.5 8.00009H2.5V2.16422C2.50028 2.03299 2.53943 1.90479 2.61249 1.79578C2.68555 1.68677 2.78926 1.60184 2.91053 1.5517C3.0318 1.50156 3.16521 1.48846 3.29392 1.51404C3.42263 1.53963 3.54088 1.60276 3.63375 1.69547L4.23594 2.29734C3.82563 3.23108 3.99813 4.14451 4.50531 4.78888L4.5 4.79419C4.40659 4.88791 4.35414 5.01483 4.35414 5.14715C4.35414 5.27947 4.40659 5.4064 4.5 5.50012L4.85344 5.85355C4.89987 5.89999 4.95499 5.93683 5.01566 5.96197C5.07633 5.9871 5.14136 6.00004 5.20703 6.00004C5.2727 6.00004 5.33773 5.9871 5.3984 5.96197C5.45907 5.93683 5.51419 5.89999 5.56063 5.85355L8.85344 2.56078C8.89988 2.51435 8.93672 2.45922 8.96185 2.39855C8.98699 2.33788 8.99992 2.27286 8.99992 2.20719C8.99992 2.14152 8.98699 2.07649 8.96185 2.01582C8.93672 1.95515 8.89988 1.90003 8.85344 1.8536L8.5 1.50016C8.40624 1.40647 8.27911 1.35383 8.14656 1.35383C8.01401 1.35383 7.88688 1.40647 7.79313 1.50016L7.78781 1.50547C7.14344 0.998293 6.23062 0.825795 5.29625 1.2361L4.69438 0.633922C4.39172 0.33124 4.00611 0.125107 3.5863 0.0415921C3.16649 -0.0419225 2.73134 0.000932932 2.33589 0.164739C1.94043 0.328544 1.60244 0.605942 1.36465 0.961849C1.12687 1.31776 0.999965 1.73619 1 2.16422V8.00009H0.5C0.367392 8.00009 0.240215 8.05277 0.146447 8.14653C0.0526784 8.2403 0 8.36748 0 8.50008V9.00008C0 9.13268 0.0526784 9.25986 0.146447 9.35363C0.240215 9.4474 0.367392 9.50007 0.5 9.50007H15.5C15.6326 9.50007 15.7598 9.4474 15.8536 9.35363C15.9473 9.25986 16 9.13268 16 9.00008V8.50008C16 8.36748 15.9473 8.2403 15.8536 8.14653C15.7598 8.05277 15.6326 8.00009 15.5 8.00009Z"
+												fill="#000"
+												fill-opacity="0.95"
+											/>
+										</svg>
+									</span>
+
+									7 Bathdrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g opacity="0.75">
+												<rect
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+											</g>
+										</svg>
+									</span>
+
+									1000 sqft
+								</p>
+							</div>
+
+							<!-- Property Buttons Starts -->
+							<div
+								class="property__buttons d-flex flex-column column-gap-3 row-gap-2"
+							>
+								<a
+									href="#contact"
+									class="property__button btn btn-dark w-100 rounded-0"
+									>Book a Tour</a
+								>
+
+								<a
+									href="#"
+									class="property__button btn btn-outline-dark w-100 rounded-0"
+									>Check More</a
+								>
+							</div>
+							<!-- Property Buttons Ends -->
+						</div>
+					</article>
+
+					<article class="property card rounded-0">
+						<img
+							src="./images/card__images/property-2.jpg"
+							class="property__image d-block img-fluid card-img-top rounded-0 object-fit-cover object-position-center"
+							alt="Modern house in Queens, New York"
+							loading="lazy"
+							width="368.27"
+							height="250"
+						/>
+
+						<div class="property__body card-body">
+							<h5
+								class="property__title card-title fw-semibold d-flex align-items-center column-gap-1"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="13"
+										height="22"
+										viewBox="0 0 13 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.99803 9.65555C4.09921 8.93444 3.16699 8.18889 3.16699 7.02778C3.16699 5.69556 4.45678 4.76667 6.61493 4.76667C8.88801 4.76667 9.73084 5.80556 9.80746 7.33333H12.6297C12.5403 5.23111 11.1994 3.3 8.53045 2.67667V0H4.69941V2.64C2.222 3.15333 0.229862 4.69333 0.229862 7.05222C0.229862 9.87556 2.66896 11.2811 6.23183 12.1C9.42436 12.8333 10.0629 13.9089 10.0629 15.0456C10.0629 15.8889 9.43713 17.2333 6.61493 17.2333C3.98428 17.2333 2.9499 16.1089 2.80943 14.6667H0C0.153242 17.3433 2.24754 18.8467 4.69941 19.3478V22H8.53045V19.3722C11.0206 18.92 13 17.5389 13 15.0333C13 11.5622 9.89686 10.3767 6.99803 9.65555Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								<data value="950000" aria-label="Price 950 thousand dollars"
+									>950,000</data
+								>
+							</h5>
+							<p
+								class="property__subtitle card-subtitle mb-3 text-body-secondary d-flex align-items-center column-gap-1 fw-medium"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="12"
+										height="15"
+										viewBox="0 0 12 15"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6 0C4.40928 0.00184311 2.88425 0.623288 1.75944 1.72801C0.634626 2.83274 0.001883 4.33054 6.38338e-06 5.89286C-0.00189883 7.16958 0.422723 8.41167 1.20873 9.42857C1.20873 9.42857 1.37237 9.64018 1.3991 9.67071L6 15L10.6031 9.66804C10.6271 9.63964 10.7913 9.42857 10.7913 9.42857L10.7918 9.42696C11.5774 8.41051 12.0019 7.169 12 5.89286C11.9981 4.33054 11.3654 2.83274 10.2406 1.72801C9.11575 0.623288 7.59072 0.00184311 6 0ZM6 8.03571C5.56848 8.03571 5.14665 7.91004 4.78785 7.67458C4.42905 7.43912 4.1494 7.10445 3.98427 6.71289C3.81913 6.32134 3.77592 5.89048 3.86011 5.47481C3.94429 5.05913 4.15209 4.67731 4.45722 4.37763C4.76236 4.07794 5.15112 3.87386 5.57435 3.79117C5.99758 3.70849 6.43627 3.75093 6.83494 3.91312C7.23362 4.0753 7.57437 4.34996 7.81411 4.70235C8.05385 5.05474 8.18182 5.46904 8.18182 5.89286C8.18109 6.46096 7.95099 7.00559 7.54198 7.4073C7.13297 7.80901 6.57843 8.03501 6 8.03571Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								Queens, New York
+							</p>
+
+							<div
+								class="property__features d-flex flex-column justify-content-center row-gap-2 column-gap-3 mb-3"
+							>
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="14"
+											viewBox="0 0 16 14"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M13.5 6C14.1347 5.9999 14.7457 6.24123 15.209 6.67504C15.6724 7.10885 15.9534 7.70265 15.995 8.336L16 8.5V13.5C16.0002 13.6249 15.9537 13.7455 15.8695 13.8378C15.7853 13.9301 15.6696 13.9876 15.5452 13.9989C15.4207 14.0102 15.2966 13.9745 15.1972 13.8988C15.0977 13.8231 15.0303 13.7129 15.008 13.59L15 13.5V11H1V13.5C1.00023 13.6249 0.953671 13.7455 0.869492 13.8378C0.785312 13.9301 0.669613 13.9876 0.545178 13.9989C0.420743 14.0102 0.29659 13.9745 0.197168 13.8988C0.0977463 13.8231 0.0302602 13.7129 0.00799993 13.59L2.96809e-08 13.5V8.5C-9.77163e-05 7.86528 0.241233 7.25429 0.67504 6.79095C1.10885 6.32762 1.70265 6.04664 2.336 6.005L2.5 6H13.5ZM4.5 2.96809e-08H11.5C12.1347 -9.77163e-05 12.7457 0.241233 13.209 0.67504C13.6724 1.10885 13.9534 1.70265 13.995 2.336L14 2.5V5H12V4.5C12 4.38297 11.959 4.26964 11.8841 4.17974C11.8092 4.08984 11.7051 4.02906 11.59 4.008L11.5 4H9C8.88297 3.99996 8.76964 4.04097 8.67974 4.11589C8.58984 4.19081 8.52907 4.29489 8.508 4.41L8.5 4.5V5H7.5V4.5C7.50004 4.38297 7.45903 4.26964 7.38411 4.17974C7.30919 4.08984 7.20511 4.02906 7.09 4.008L7 4H4.5C4.38297 3.99996 4.26964 4.04097 4.17974 4.11589C4.08984 4.19081 4.02906 4.29489 4.008 4.41L4 4.5V5H2V2.5C1.9999 1.86528 2.24123 1.25429 2.67504 0.790955C3.10885 0.327621 3.70265 0.0466377 4.336 0.00500014L4.5 2.96809e-08Z"
+												fill="#000"
+												fill-opacity="0.75"
+											/>
+										</svg>
+									</span>
+
+									4 Bedrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												opacity="0.75"
+												d="M1 12C1.00086 12.4199 1.09039 12.8348 1.26271 13.2176C1.43504 13.6005 1.68629 13.9426 2 14.2216V15C3 15 2.40623 14.9062 2.5 15H4C4.09377 14.9062 4 14.6326 4 14.5L3.5 15H4L12 15L14 15V14.2216C14.3137 13.9426 14.565 13.6005 14.7373 13.2176C14.9096 12.8348 14.9991 12.4199 15 12V10.5001H1V12ZM15.5 8.00009H2.5V2.16422C2.50028 2.03299 2.53943 1.90479 2.61249 1.79578C2.68555 1.68677 2.78926 1.60184 2.91053 1.5517C3.0318 1.50156 3.16521 1.48846 3.29392 1.51404C3.42263 1.53963 3.54088 1.60276 3.63375 1.69547L4.23594 2.29734C3.82563 3.23108 3.99813 4.14451 4.50531 4.78888L4.5 4.79419C4.40659 4.88791 4.35414 5.01483 4.35414 5.14715C4.35414 5.27947 4.40659 5.4064 4.5 5.50012L4.85344 5.85355C4.89987 5.89999 4.95499 5.93683 5.01566 5.96197C5.07633 5.9871 5.14136 6.00004 5.20703 6.00004C5.2727 6.00004 5.33773 5.9871 5.3984 5.96197C5.45907 5.93683 5.51419 5.89999 5.56063 5.85355L8.85344 2.56078C8.89988 2.51435 8.93672 2.45922 8.96185 2.39855C8.98699 2.33788 8.99992 2.27286 8.99992 2.20719C8.99992 2.14152 8.98699 2.07649 8.96185 2.01582C8.93672 1.95515 8.89988 1.90003 8.85344 1.8536L8.5 1.50016C8.40624 1.40647 8.27911 1.35383 8.14656 1.35383C8.01401 1.35383 7.88688 1.40647 7.79313 1.50016L7.78781 1.50547C7.14344 0.998293 6.23062 0.825795 5.29625 1.2361L4.69438 0.633922C4.39172 0.33124 4.00611 0.125107 3.5863 0.0415921C3.16649 -0.0419225 2.73134 0.000932932 2.33589 0.164739C1.94043 0.328544 1.60244 0.605942 1.36465 0.961849C1.12687 1.31776 0.999965 1.73619 1 2.16422V8.00009H0.5C0.367392 8.00009 0.240215 8.05277 0.146447 8.14653C0.0526784 8.2403 0 8.36748 0 8.50008V9.00008C0 9.13268 0.0526784 9.25986 0.146447 9.35363C0.240215 9.4474 0.367392 9.50007 0.5 9.50007H15.5C15.6326 9.50007 15.7598 9.4474 15.8536 9.35363C15.9473 9.25986 16 9.13268 16 9.00008V8.50008C16 8.36748 15.9473 8.2403 15.8536 8.14653C15.7598 8.05277 15.6326 8.00009 15.5 8.00009Z"
+												fill="#000"
+												fill-opacity="0.95"
+											/>
+										</svg>
+									</span>
+
+									5 Bathdrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g opacity="0.75">
+												<rect
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+											</g>
+										</svg>
+									</span>
+
+									900 sqft
+								</p>
+							</div>
+
+							<!-- Property Buttons Starts -->
+							<div
+								class="property__buttons d-flex flex-column column-gap-3 row-gap-2"
+							>
+								<a
+									href="#contact"
+									class="property__button btn btn-dark w-100 rounded-0"
+									>Book a Tour</a
+								>
+
+								<a
+									href="#"
+									class="property__button btn btn-outline-dark w-100 rounded-0"
+									>Check More</a
+								>
+							</div>
+							<!-- Property Buttons Ends -->
+						</div>
+					</article>
+
+					<article class="property card rounded-0">
+						<img
+							src="./images/card__images/property-3.jpg"
+							class="property__image d-block img-fluid card-img-top rounded-0 object-fit-cover object-position-center"
+							alt="Modern house in Queens, New York"
+							loading="lazy"
+							width="368.27"
+							height="250"
+						/>
+
+						<div class="property__body card-body">
+							<h5
+								class="property__title card-title fw-semibold d-flex align-items-center column-gap-1"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="13"
+										height="22"
+										viewBox="0 0 13 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.99803 9.65555C4.09921 8.93444 3.16699 8.18889 3.16699 7.02778C3.16699 5.69556 4.45678 4.76667 6.61493 4.76667C8.88801 4.76667 9.73084 5.80556 9.80746 7.33333H12.6297C12.5403 5.23111 11.1994 3.3 8.53045 2.67667V0H4.69941V2.64C2.222 3.15333 0.229862 4.69333 0.229862 7.05222C0.229862 9.87556 2.66896 11.2811 6.23183 12.1C9.42436 12.8333 10.0629 13.9089 10.0629 15.0456C10.0629 15.8889 9.43713 17.2333 6.61493 17.2333C3.98428 17.2333 2.9499 16.1089 2.80943 14.6667H0C0.153242 17.3433 2.24754 18.8467 4.69941 19.3478V22H8.53045V19.3722C11.0206 18.92 13 17.5389 13 15.0333C13 11.5622 9.89686 10.3767 6.99803 9.65555Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								<data value="850000" aria-label="Price 850 thousand dollars"
+									>850,000</data
+								>
+							</h5>
+							<p
+								class="property__subtitle card-subtitle mb-3 text-body-secondary d-flex align-items-center column-gap-1 fw-medium"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="12"
+										height="15"
+										viewBox="0 0 12 15"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6 0C4.40928 0.00184311 2.88425 0.623288 1.75944 1.72801C0.634626 2.83274 0.001883 4.33054 6.38338e-06 5.89286C-0.00189883 7.16958 0.422723 8.41167 1.20873 9.42857C1.20873 9.42857 1.37237 9.64018 1.3991 9.67071L6 15L10.6031 9.66804C10.6271 9.63964 10.7913 9.42857 10.7913 9.42857L10.7918 9.42696C11.5774 8.41051 12.0019 7.169 12 5.89286C11.9981 4.33054 11.3654 2.83274 10.2406 1.72801C9.11575 0.623288 7.59072 0.00184311 6 0ZM6 8.03571C5.56848 8.03571 5.14665 7.91004 4.78785 7.67458C4.42905 7.43912 4.1494 7.10445 3.98427 6.71289C3.81913 6.32134 3.77592 5.89048 3.86011 5.47481C3.94429 5.05913 4.15209 4.67731 4.45722 4.37763C4.76236 4.07794 5.15112 3.87386 5.57435 3.79117C5.99758 3.70849 6.43627 3.75093 6.83494 3.91312C7.23362 4.0753 7.57437 4.34996 7.81411 4.70235C8.05385 5.05474 8.18182 5.46904 8.18182 5.89286C8.18109 6.46096 7.95099 7.00559 7.54198 7.4073C7.13297 7.80901 6.57843 8.03501 6 8.03571Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								Downtown, Texas
+							</p>
+
+							<div
+								class="property__features d-flex flex-column justify-content-center row-gap-2 column-gap-3 mb-3"
+							>
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="14"
+											viewBox="0 0 16 14"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M13.5 6C14.1347 5.9999 14.7457 6.24123 15.209 6.67504C15.6724 7.10885 15.9534 7.70265 15.995 8.336L16 8.5V13.5C16.0002 13.6249 15.9537 13.7455 15.8695 13.8378C15.7853 13.9301 15.6696 13.9876 15.5452 13.9989C15.4207 14.0102 15.2966 13.9745 15.1972 13.8988C15.0977 13.8231 15.0303 13.7129 15.008 13.59L15 13.5V11H1V13.5C1.00023 13.6249 0.953671 13.7455 0.869492 13.8378C0.785312 13.9301 0.669613 13.9876 0.545178 13.9989C0.420743 14.0102 0.29659 13.9745 0.197168 13.8988C0.0977463 13.8231 0.0302602 13.7129 0.00799993 13.59L2.96809e-08 13.5V8.5C-9.77163e-05 7.86528 0.241233 7.25429 0.67504 6.79095C1.10885 6.32762 1.70265 6.04664 2.336 6.005L2.5 6H13.5ZM4.5 2.96809e-08H11.5C12.1347 -9.77163e-05 12.7457 0.241233 13.209 0.67504C13.6724 1.10885 13.9534 1.70265 13.995 2.336L14 2.5V5H12V4.5C12 4.38297 11.959 4.26964 11.8841 4.17974C11.8092 4.08984 11.7051 4.02906 11.59 4.008L11.5 4H9C8.88297 3.99996 8.76964 4.04097 8.67974 4.11589C8.58984 4.19081 8.52907 4.29489 8.508 4.41L8.5 4.5V5H7.5V4.5C7.50004 4.38297 7.45903 4.26964 7.38411 4.17974C7.30919 4.08984 7.20511 4.02906 7.09 4.008L7 4H4.5C4.38297 3.99996 4.26964 4.04097 4.17974 4.11589C4.08984 4.19081 4.02906 4.29489 4.008 4.41L4 4.5V5H2V2.5C1.9999 1.86528 2.24123 1.25429 2.67504 0.790955C3.10885 0.327621 3.70265 0.0466377 4.336 0.00500014L4.5 2.96809e-08Z"
+												fill="#000"
+												fill-opacity="0.75"
+											/>
+										</svg>
+									</span>
+
+									6 Bedrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												opacity="0.75"
+												d="M1 12C1.00086 12.4199 1.09039 12.8348 1.26271 13.2176C1.43504 13.6005 1.68629 13.9426 2 14.2216V15C3 15 2.40623 14.9062 2.5 15H4C4.09377 14.9062 4 14.6326 4 14.5L3.5 15H4L12 15L14 15V14.2216C14.3137 13.9426 14.565 13.6005 14.7373 13.2176C14.9096 12.8348 14.9991 12.4199 15 12V10.5001H1V12ZM15.5 8.00009H2.5V2.16422C2.50028 2.03299 2.53943 1.90479 2.61249 1.79578C2.68555 1.68677 2.78926 1.60184 2.91053 1.5517C3.0318 1.50156 3.16521 1.48846 3.29392 1.51404C3.42263 1.53963 3.54088 1.60276 3.63375 1.69547L4.23594 2.29734C3.82563 3.23108 3.99813 4.14451 4.50531 4.78888L4.5 4.79419C4.40659 4.88791 4.35414 5.01483 4.35414 5.14715C4.35414 5.27947 4.40659 5.4064 4.5 5.50012L4.85344 5.85355C4.89987 5.89999 4.95499 5.93683 5.01566 5.96197C5.07633 5.9871 5.14136 6.00004 5.20703 6.00004C5.2727 6.00004 5.33773 5.9871 5.3984 5.96197C5.45907 5.93683 5.51419 5.89999 5.56063 5.85355L8.85344 2.56078C8.89988 2.51435 8.93672 2.45922 8.96185 2.39855C8.98699 2.33788 8.99992 2.27286 8.99992 2.20719C8.99992 2.14152 8.98699 2.07649 8.96185 2.01582C8.93672 1.95515 8.89988 1.90003 8.85344 1.8536L8.5 1.50016C8.40624 1.40647 8.27911 1.35383 8.14656 1.35383C8.01401 1.35383 7.88688 1.40647 7.79313 1.50016L7.78781 1.50547C7.14344 0.998293 6.23062 0.825795 5.29625 1.2361L4.69438 0.633922C4.39172 0.33124 4.00611 0.125107 3.5863 0.0415921C3.16649 -0.0419225 2.73134 0.000932932 2.33589 0.164739C1.94043 0.328544 1.60244 0.605942 1.36465 0.961849C1.12687 1.31776 0.999965 1.73619 1 2.16422V8.00009H0.5C0.367392 8.00009 0.240215 8.05277 0.146447 8.14653C0.0526784 8.2403 0 8.36748 0 8.50008V9.00008C0 9.13268 0.0526784 9.25986 0.146447 9.35363C0.240215 9.4474 0.367392 9.50007 0.5 9.50007H15.5C15.6326 9.50007 15.7598 9.4474 15.8536 9.35363C15.9473 9.25986 16 9.13268 16 9.00008V8.50008C16 8.36748 15.9473 8.2403 15.8536 8.14653C15.7598 8.05277 15.6326 8.00009 15.5 8.00009Z"
+												fill="#000"
+												fill-opacity="0.95"
+											/>
+										</svg>
+									</span>
+
+									8 Bathdrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g opacity="0.75">
+												<rect
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+											</g>
+										</svg>
+									</span>
+
+									1500 sqft
+								</p>
+							</div>
+
+							<!-- Property Buttons Starts -->
+							<div
+								class="property__buttons d-flex flex-column column-gap-3 row-gap-2"
+							>
+								<a
+									href="#contact"
+									class="property__button btn btn-dark w-100 rounded-0"
+									>Book a Tour</a
+								>
+
+								<a
+									href="#"
+									class="property__button btn btn-outline-dark w-100 rounded-0"
+									>Check More</a
+								>
+							</div>
+							<!-- Property Buttons Ends -->
+						</div>
+					</article>
+
+					<article class="property card rounded-0">
+						<img
+							src="./images/card__images/property-4.jpg"
+							class="property__image d-block img-fluid card-img-top rounded-0 object-fit-cover object-position-center"
+							alt="Modern house in Downtown, Boston"
+							loading="lazy"
+							width="368.27"
+							height="250"
+						/>
+
+						<div class="property__body card-body">
+							<h5
+								class="property__title card-title fw-semibold d-flex align-items-center column-gap-1"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="13"
+										height="22"
+										viewBox="0 0 13 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.99803 9.65555C4.09921 8.93444 3.16699 8.18889 3.16699 7.02778C3.16699 5.69556 4.45678 4.76667 6.61493 4.76667C8.88801 4.76667 9.73084 5.80556 9.80746 7.33333H12.6297C12.5403 5.23111 11.1994 3.3 8.53045 2.67667V0H4.69941V2.64C2.222 3.15333 0.229862 4.69333 0.229862 7.05222C0.229862 9.87556 2.66896 11.2811 6.23183 12.1C9.42436 12.8333 10.0629 13.9089 10.0629 15.0456C10.0629 15.8889 9.43713 17.2333 6.61493 17.2333C3.98428 17.2333 2.9499 16.1089 2.80943 14.6667H0C0.153242 17.3433 2.24754 18.8467 4.69941 19.3478V22H8.53045V19.3722C11.0206 18.92 13 17.5389 13 15.0333C13 11.5622 9.89686 10.3767 6.99803 9.65555Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								<data value="550000" aria-label="Price 550 thousand dollars"
+									>550,000</data
+								>
+							</h5>
+							<p
+								class="property__subtitle card-subtitle mb-3 text-body-secondary d-flex align-items-center column-gap-1 fw-medium"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="12"
+										height="15"
+										viewBox="0 0 12 15"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6 0C4.40928 0.00184311 2.88425 0.623288 1.75944 1.72801C0.634626 2.83274 0.001883 4.33054 6.38338e-06 5.89286C-0.00189883 7.16958 0.422723 8.41167 1.20873 9.42857C1.20873 9.42857 1.37237 9.64018 1.3991 9.67071L6 15L10.6031 9.66804C10.6271 9.63964 10.7913 9.42857 10.7913 9.42857L10.7918 9.42696C11.5774 8.41051 12.0019 7.169 12 5.89286C11.9981 4.33054 11.3654 2.83274 10.2406 1.72801C9.11575 0.623288 7.59072 0.00184311 6 0ZM6 8.03571C5.56848 8.03571 5.14665 7.91004 4.78785 7.67458C4.42905 7.43912 4.1494 7.10445 3.98427 6.71289C3.81913 6.32134 3.77592 5.89048 3.86011 5.47481C3.94429 5.05913 4.15209 4.67731 4.45722 4.37763C4.76236 4.07794 5.15112 3.87386 5.57435 3.79117C5.99758 3.70849 6.43627 3.75093 6.83494 3.91312C7.23362 4.0753 7.57437 4.34996 7.81411 4.70235C8.05385 5.05474 8.18182 5.46904 8.18182 5.89286C8.18109 6.46096 7.95099 7.00559 7.54198 7.4073C7.13297 7.80901 6.57843 8.03501 6 8.03571Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								Downtown, Boston
+							</p>
+
+							<div
+								class="property__features d-flex flex-column justify-content-center row-gap-2 column-gap-3 mb-3"
+							>
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="14"
+											viewBox="0 0 16 14"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M13.5 6C14.1347 5.9999 14.7457 6.24123 15.209 6.67504C15.6724 7.10885 15.9534 7.70265 15.995 8.336L16 8.5V13.5C16.0002 13.6249 15.9537 13.7455 15.8695 13.8378C15.7853 13.9301 15.6696 13.9876 15.5452 13.9989C15.4207 14.0102 15.2966 13.9745 15.1972 13.8988C15.0977 13.8231 15.0303 13.7129 15.008 13.59L15 13.5V11H1V13.5C1.00023 13.6249 0.953671 13.7455 0.869492 13.8378C0.785312 13.9301 0.669613 13.9876 0.545178 13.9989C0.420743 14.0102 0.29659 13.9745 0.197168 13.8988C0.0977463 13.8231 0.0302602 13.7129 0.00799993 13.59L2.96809e-08 13.5V8.5C-9.77163e-05 7.86528 0.241233 7.25429 0.67504 6.79095C1.10885 6.32762 1.70265 6.04664 2.336 6.005L2.5 6H13.5ZM4.5 2.96809e-08H11.5C12.1347 -9.77163e-05 12.7457 0.241233 13.209 0.67504C13.6724 1.10885 13.9534 1.70265 13.995 2.336L14 2.5V5H12V4.5C12 4.38297 11.959 4.26964 11.8841 4.17974C11.8092 4.08984 11.7051 4.02906 11.59 4.008L11.5 4H9C8.88297 3.99996 8.76964 4.04097 8.67974 4.11589C8.58984 4.19081 8.52907 4.29489 8.508 4.41L8.5 4.5V5H7.5V4.5C7.50004 4.38297 7.45903 4.26964 7.38411 4.17974C7.30919 4.08984 7.20511 4.02906 7.09 4.008L7 4H4.5C4.38297 3.99996 4.26964 4.04097 4.17974 4.11589C4.08984 4.19081 4.02906 4.29489 4.008 4.41L4 4.5V5H2V2.5C1.9999 1.86528 2.24123 1.25429 2.67504 0.790955C3.10885 0.327621 3.70265 0.0466377 4.336 0.00500014L4.5 2.96809e-08Z"
+												fill="#000"
+												fill-opacity="0.75"
+											/>
+										</svg>
+									</span>
+
+									6 Bedrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												opacity="0.75"
+												d="M1 12C1.00086 12.4199 1.09039 12.8348 1.26271 13.2176C1.43504 13.6005 1.68629 13.9426 2 14.2216V15C3 15 2.40623 14.9062 2.5 15H4C4.09377 14.9062 4 14.6326 4 14.5L3.5 15H4L12 15L14 15V14.2216C14.3137 13.9426 14.565 13.6005 14.7373 13.2176C14.9096 12.8348 14.9991 12.4199 15 12V10.5001H1V12ZM15.5 8.00009H2.5V2.16422C2.50028 2.03299 2.53943 1.90479 2.61249 1.79578C2.68555 1.68677 2.78926 1.60184 2.91053 1.5517C3.0318 1.50156 3.16521 1.48846 3.29392 1.51404C3.42263 1.53963 3.54088 1.60276 3.63375 1.69547L4.23594 2.29734C3.82563 3.23108 3.99813 4.14451 4.50531 4.78888L4.5 4.79419C4.40659 4.88791 4.35414 5.01483 4.35414 5.14715C4.35414 5.27947 4.40659 5.4064 4.5 5.50012L4.85344 5.85355C4.89987 5.89999 4.95499 5.93683 5.01566 5.96197C5.07633 5.9871 5.14136 6.00004 5.20703 6.00004C5.2727 6.00004 5.33773 5.9871 5.3984 5.96197C5.45907 5.93683 5.51419 5.89999 5.56063 5.85355L8.85344 2.56078C8.89988 2.51435 8.93672 2.45922 8.96185 2.39855C8.98699 2.33788 8.99992 2.27286 8.99992 2.20719C8.99992 2.14152 8.98699 2.07649 8.96185 2.01582C8.93672 1.95515 8.89988 1.90003 8.85344 1.8536L8.5 1.50016C8.40624 1.40647 8.27911 1.35383 8.14656 1.35383C8.01401 1.35383 7.88688 1.40647 7.79313 1.50016L7.78781 1.50547C7.14344 0.998293 6.23062 0.825795 5.29625 1.2361L4.69438 0.633922C4.39172 0.33124 4.00611 0.125107 3.5863 0.0415921C3.16649 -0.0419225 2.73134 0.000932932 2.33589 0.164739C1.94043 0.328544 1.60244 0.605942 1.36465 0.961849C1.12687 1.31776 0.999965 1.73619 1 2.16422V8.00009H0.5C0.367392 8.00009 0.240215 8.05277 0.146447 8.14653C0.0526784 8.2403 0 8.36748 0 8.50008V9.00008C0 9.13268 0.0526784 9.25986 0.146447 9.35363C0.240215 9.4474 0.367392 9.50007 0.5 9.50007H15.5C15.6326 9.50007 15.7598 9.4474 15.8536 9.35363C15.9473 9.25986 16 9.13268 16 9.00008V8.50008C16 8.36748 15.9473 8.2403 15.8536 8.14653C15.7598 8.05277 15.6326 8.00009 15.5 8.00009Z"
+												fill="#000"
+												fill-opacity="0.95"
+											/>
+										</svg>
+									</span>
+
+									7 Bathdrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g opacity="0.75">
+												<rect
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+											</g>
+										</svg>
+									</span>
+
+									1000 sqft
+								</p>
+							</div>
+
+							<!-- Property Buttons Starts -->
+							<div
+								class="property__buttons d-flex flex-column column-gap-3 row-gap-2"
+							>
+								<a
+									href="#contact"
+									class="property__button btn btn-dark w-100 rounded-0"
+									>Book a Tour</a
+								>
+
+								<a
+									href="#"
+									class="property__button btn btn-outline-dark w-100 rounded-0"
+									>Check More</a
+								>
+							</div>
+							<!-- Property Buttons Ends -->
+						</div>
+					</article>
+
+					<article class="property card rounded-0">
+						<img
+							src="./images/card__images/property-5.jpg"
+							class="property__image d-block img-fluid card-img-top rounded-0 object-fit-cover object-position-center"
+							alt="Modern house in Queens, New York"
+							loading="lazy"
+							width="368.27"
+							height="250"
+						/>
+
+						<div class="property__body card-body">
+							<h5
+								class="property__title card-title fw-semibold d-flex align-items-center column-gap-1"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="13"
+										height="22"
+										viewBox="0 0 13 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.99803 9.65555C4.09921 8.93444 3.16699 8.18889 3.16699 7.02778C3.16699 5.69556 4.45678 4.76667 6.61493 4.76667C8.88801 4.76667 9.73084 5.80556 9.80746 7.33333H12.6297C12.5403 5.23111 11.1994 3.3 8.53045 2.67667V0H4.69941V2.64C2.222 3.15333 0.229862 4.69333 0.229862 7.05222C0.229862 9.87556 2.66896 11.2811 6.23183 12.1C9.42436 12.8333 10.0629 13.9089 10.0629 15.0456C10.0629 15.8889 9.43713 17.2333 6.61493 17.2333C3.98428 17.2333 2.9499 16.1089 2.80943 14.6667H0C0.153242 17.3433 2.24754 18.8467 4.69941 19.3478V22H8.53045V19.3722C11.0206 18.92 13 17.5389 13 15.0333C13 11.5622 9.89686 10.3767 6.99803 9.65555Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								<data value="950000" aria-label="Price 950 thousand dollars"
+									>950,000</data
+								>
+							</h5>
+							<p
+								class="property__subtitle card-subtitle mb-3 text-body-secondary d-flex align-items-center column-gap-1 fw-medium"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="12"
+										height="15"
+										viewBox="0 0 12 15"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6 0C4.40928 0.00184311 2.88425 0.623288 1.75944 1.72801C0.634626 2.83274 0.001883 4.33054 6.38338e-06 5.89286C-0.00189883 7.16958 0.422723 8.41167 1.20873 9.42857C1.20873 9.42857 1.37237 9.64018 1.3991 9.67071L6 15L10.6031 9.66804C10.6271 9.63964 10.7913 9.42857 10.7913 9.42857L10.7918 9.42696C11.5774 8.41051 12.0019 7.169 12 5.89286C11.9981 4.33054 11.3654 2.83274 10.2406 1.72801C9.11575 0.623288 7.59072 0.00184311 6 0ZM6 8.03571C5.56848 8.03571 5.14665 7.91004 4.78785 7.67458C4.42905 7.43912 4.1494 7.10445 3.98427 6.71289C3.81913 6.32134 3.77592 5.89048 3.86011 5.47481C3.94429 5.05913 4.15209 4.67731 4.45722 4.37763C4.76236 4.07794 5.15112 3.87386 5.57435 3.79117C5.99758 3.70849 6.43627 3.75093 6.83494 3.91312C7.23362 4.0753 7.57437 4.34996 7.81411 4.70235C8.05385 5.05474 8.18182 5.46904 8.18182 5.89286C8.18109 6.46096 7.95099 7.00559 7.54198 7.4073C7.13297 7.80901 6.57843 8.03501 6 8.03571Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								Queens, New York
+							</p>
+
+							<div
+								class="property__features d-flex flex-column justify-content-center row-gap-2 column-gap-3 mb-3"
+							>
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="14"
+											viewBox="0 0 16 14"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M13.5 6C14.1347 5.9999 14.7457 6.24123 15.209 6.67504C15.6724 7.10885 15.9534 7.70265 15.995 8.336L16 8.5V13.5C16.0002 13.6249 15.9537 13.7455 15.8695 13.8378C15.7853 13.9301 15.6696 13.9876 15.5452 13.9989C15.4207 14.0102 15.2966 13.9745 15.1972 13.8988C15.0977 13.8231 15.0303 13.7129 15.008 13.59L15 13.5V11H1V13.5C1.00023 13.6249 0.953671 13.7455 0.869492 13.8378C0.785312 13.9301 0.669613 13.9876 0.545178 13.9989C0.420743 14.0102 0.29659 13.9745 0.197168 13.8988C0.0977463 13.8231 0.0302602 13.7129 0.00799993 13.59L2.96809e-08 13.5V8.5C-9.77163e-05 7.86528 0.241233 7.25429 0.67504 6.79095C1.10885 6.32762 1.70265 6.04664 2.336 6.005L2.5 6H13.5ZM4.5 2.96809e-08H11.5C12.1347 -9.77163e-05 12.7457 0.241233 13.209 0.67504C13.6724 1.10885 13.9534 1.70265 13.995 2.336L14 2.5V5H12V4.5C12 4.38297 11.959 4.26964 11.8841 4.17974C11.8092 4.08984 11.7051 4.02906 11.59 4.008L11.5 4H9C8.88297 3.99996 8.76964 4.04097 8.67974 4.11589C8.58984 4.19081 8.52907 4.29489 8.508 4.41L8.5 4.5V5H7.5V4.5C7.50004 4.38297 7.45903 4.26964 7.38411 4.17974C7.30919 4.08984 7.20511 4.02906 7.09 4.008L7 4H4.5C4.38297 3.99996 4.26964 4.04097 4.17974 4.11589C4.08984 4.19081 4.02906 4.29489 4.008 4.41L4 4.5V5H2V2.5C1.9999 1.86528 2.24123 1.25429 2.67504 0.790955C3.10885 0.327621 3.70265 0.0466377 4.336 0.00500014L4.5 2.96809e-08Z"
+												fill="#000"
+												fill-opacity="0.75"
+											/>
+										</svg>
+									</span>
+
+									4 Bedrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												opacity="0.75"
+												d="M1 12C1.00086 12.4199 1.09039 12.8348 1.26271 13.2176C1.43504 13.6005 1.68629 13.9426 2 14.2216V15C3 15 2.40623 14.9062 2.5 15H4C4.09377 14.9062 4 14.6326 4 14.5L3.5 15H4L12 15L14 15V14.2216C14.3137 13.9426 14.565 13.6005 14.7373 13.2176C14.9096 12.8348 14.9991 12.4199 15 12V10.5001H1V12ZM15.5 8.00009H2.5V2.16422C2.50028 2.03299 2.53943 1.90479 2.61249 1.79578C2.68555 1.68677 2.78926 1.60184 2.91053 1.5517C3.0318 1.50156 3.16521 1.48846 3.29392 1.51404C3.42263 1.53963 3.54088 1.60276 3.63375 1.69547L4.23594 2.29734C3.82563 3.23108 3.99813 4.14451 4.50531 4.78888L4.5 4.79419C4.40659 4.88791 4.35414 5.01483 4.35414 5.14715C4.35414 5.27947 4.40659 5.4064 4.5 5.50012L4.85344 5.85355C4.89987 5.89999 4.95499 5.93683 5.01566 5.96197C5.07633 5.9871 5.14136 6.00004 5.20703 6.00004C5.2727 6.00004 5.33773 5.9871 5.3984 5.96197C5.45907 5.93683 5.51419 5.89999 5.56063 5.85355L8.85344 2.56078C8.89988 2.51435 8.93672 2.45922 8.96185 2.39855C8.98699 2.33788 8.99992 2.27286 8.99992 2.20719C8.99992 2.14152 8.98699 2.07649 8.96185 2.01582C8.93672 1.95515 8.89988 1.90003 8.85344 1.8536L8.5 1.50016C8.40624 1.40647 8.27911 1.35383 8.14656 1.35383C8.01401 1.35383 7.88688 1.40647 7.79313 1.50016L7.78781 1.50547C7.14344 0.998293 6.23062 0.825795 5.29625 1.2361L4.69438 0.633922C4.39172 0.33124 4.00611 0.125107 3.5863 0.0415921C3.16649 -0.0419225 2.73134 0.000932932 2.33589 0.164739C1.94043 0.328544 1.60244 0.605942 1.36465 0.961849C1.12687 1.31776 0.999965 1.73619 1 2.16422V8.00009H0.5C0.367392 8.00009 0.240215 8.05277 0.146447 8.14653C0.0526784 8.2403 0 8.36748 0 8.50008V9.00008C0 9.13268 0.0526784 9.25986 0.146447 9.35363C0.240215 9.4474 0.367392 9.50007 0.5 9.50007H15.5C15.6326 9.50007 15.7598 9.4474 15.8536 9.35363C15.9473 9.25986 16 9.13268 16 9.00008V8.50008C16 8.36748 15.9473 8.2403 15.8536 8.14653C15.7598 8.05277 15.6326 8.00009 15.5 8.00009Z"
+												fill="#000"
+												fill-opacity="0.95"
+											/>
+										</svg>
+									</span>
+
+									5 Bathdrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g opacity="0.75">
+												<rect
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+											</g>
+										</svg>
+									</span>
+
+									900 sqft
+								</p>
+							</div>
+
+							<!-- Property Buttons Starts -->
+							<div
+								class="property__buttons d-flex flex-column column-gap-3 row-gap-2"
+							>
+								<a
+									href="#contact"
+									class="property__button btn btn-dark w-100 rounded-0"
+									>Book a Tour</a
+								>
+
+								<a
+									href="#"
+									class="property__button btn btn-outline-dark w-100 rounded-0"
+									>Check More</a
+								>
+							</div>
+							<!-- Property Buttons Ends -->
+						</div>
+					</article>
+
+					<article class="property card rounded-0">
+						<img
+							src="./images/card__images/property-6.jpg"
+							class="property__image d-block img-fluid card-img-top rounded-0 object-fit-cover object-position-center"
+							alt="Modern house in Queens, New York"
+							loading="lazy"
+							width="368.27"
+							height="250"
+						/>
+
+						<div class="property__body card-body">
+							<h5
+								class="property__title card-title fw-semibold d-flex align-items-center column-gap-1"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="13"
+										height="22"
+										viewBox="0 0 13 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.99803 9.65555C4.09921 8.93444 3.16699 8.18889 3.16699 7.02778C3.16699 5.69556 4.45678 4.76667 6.61493 4.76667C8.88801 4.76667 9.73084 5.80556 9.80746 7.33333H12.6297C12.5403 5.23111 11.1994 3.3 8.53045 2.67667V0H4.69941V2.64C2.222 3.15333 0.229862 4.69333 0.229862 7.05222C0.229862 9.87556 2.66896 11.2811 6.23183 12.1C9.42436 12.8333 10.0629 13.9089 10.0629 15.0456C10.0629 15.8889 9.43713 17.2333 6.61493 17.2333C3.98428 17.2333 2.9499 16.1089 2.80943 14.6667H0C0.153242 17.3433 2.24754 18.8467 4.69941 19.3478V22H8.53045V19.3722C11.0206 18.92 13 17.5389 13 15.0333C13 11.5622 9.89686 10.3767 6.99803 9.65555Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								<data value="850000" aria-label="Price 850 thousand dollars"
+									>850,000</data
+								>
+							</h5>
+							<p
+								class="property__subtitle card-subtitle mb-3 text-body-secondary d-flex align-items-center column-gap-1 fw-medium"
+							>
+								<span class="d-flex align-items-center" aria-hidden="true">
+									<svg
+										width="12"
+										height="15"
+										viewBox="0 0 12 15"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6 0C4.40928 0.00184311 2.88425 0.623288 1.75944 1.72801C0.634626 2.83274 0.001883 4.33054 6.38338e-06 5.89286C-0.00189883 7.16958 0.422723 8.41167 1.20873 9.42857C1.20873 9.42857 1.37237 9.64018 1.3991 9.67071L6 15L10.6031 9.66804C10.6271 9.63964 10.7913 9.42857 10.7913 9.42857L10.7918 9.42696C11.5774 8.41051 12.0019 7.169 12 5.89286C11.9981 4.33054 11.3654 2.83274 10.2406 1.72801C9.11575 0.623288 7.59072 0.00184311 6 0ZM6 8.03571C5.56848 8.03571 5.14665 7.91004 4.78785 7.67458C4.42905 7.43912 4.1494 7.10445 3.98427 6.71289C3.81913 6.32134 3.77592 5.89048 3.86011 5.47481C3.94429 5.05913 4.15209 4.67731 4.45722 4.37763C4.76236 4.07794 5.15112 3.87386 5.57435 3.79117C5.99758 3.70849 6.43627 3.75093 6.83494 3.91312C7.23362 4.0753 7.57437 4.34996 7.81411 4.70235C8.05385 5.05474 8.18182 5.46904 8.18182 5.89286C8.18109 6.46096 7.95099 7.00559 7.54198 7.4073C7.13297 7.80901 6.57843 8.03501 6 8.03571Z"
+											fill="currentColor"
+											fill-opacity="0.95"
+										/>
+									</svg>
+								</span>
+
+								Downtown, Texas
+							</p>
+
+							<div
+								class="property__features d-flex flex-column justify-content-center row-gap-2 column-gap-3 mb-3"
+							>
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="14"
+											viewBox="0 0 16 14"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M13.5 6C14.1347 5.9999 14.7457 6.24123 15.209 6.67504C15.6724 7.10885 15.9534 7.70265 15.995 8.336L16 8.5V13.5C16.0002 13.6249 15.9537 13.7455 15.8695 13.8378C15.7853 13.9301 15.6696 13.9876 15.5452 13.9989C15.4207 14.0102 15.2966 13.9745 15.1972 13.8988C15.0977 13.8231 15.0303 13.7129 15.008 13.59L15 13.5V11H1V13.5C1.00023 13.6249 0.953671 13.7455 0.869492 13.8378C0.785312 13.9301 0.669613 13.9876 0.545178 13.9989C0.420743 14.0102 0.29659 13.9745 0.197168 13.8988C0.0977463 13.8231 0.0302602 13.7129 0.00799993 13.59L2.96809e-08 13.5V8.5C-9.77163e-05 7.86528 0.241233 7.25429 0.67504 6.79095C1.10885 6.32762 1.70265 6.04664 2.336 6.005L2.5 6H13.5ZM4.5 2.96809e-08H11.5C12.1347 -9.77163e-05 12.7457 0.241233 13.209 0.67504C13.6724 1.10885 13.9534 1.70265 13.995 2.336L14 2.5V5H12V4.5C12 4.38297 11.959 4.26964 11.8841 4.17974C11.8092 4.08984 11.7051 4.02906 11.59 4.008L11.5 4H9C8.88297 3.99996 8.76964 4.04097 8.67974 4.11589C8.58984 4.19081 8.52907 4.29489 8.508 4.41L8.5 4.5V5H7.5V4.5C7.50004 4.38297 7.45903 4.26964 7.38411 4.17974C7.30919 4.08984 7.20511 4.02906 7.09 4.008L7 4H4.5C4.38297 3.99996 4.26964 4.04097 4.17974 4.11589C4.08984 4.19081 4.02906 4.29489 4.008 4.41L4 4.5V5H2V2.5C1.9999 1.86528 2.24123 1.25429 2.67504 0.790955C3.10885 0.327621 3.70265 0.0466377 4.336 0.00500014L4.5 2.96809e-08Z"
+												fill="#000"
+												fill-opacity="0.75"
+											/>
+										</svg>
+									</span>
+
+									6 Bedrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												opacity="0.75"
+												d="M1 12C1.00086 12.4199 1.09039 12.8348 1.26271 13.2176C1.43504 13.6005 1.68629 13.9426 2 14.2216V15C3 15 2.40623 14.9062 2.5 15H4C4.09377 14.9062 4 14.6326 4 14.5L3.5 15H4L12 15L14 15V14.2216C14.3137 13.9426 14.565 13.6005 14.7373 13.2176C14.9096 12.8348 14.9991 12.4199 15 12V10.5001H1V12ZM15.5 8.00009H2.5V2.16422C2.50028 2.03299 2.53943 1.90479 2.61249 1.79578C2.68555 1.68677 2.78926 1.60184 2.91053 1.5517C3.0318 1.50156 3.16521 1.48846 3.29392 1.51404C3.42263 1.53963 3.54088 1.60276 3.63375 1.69547L4.23594 2.29734C3.82563 3.23108 3.99813 4.14451 4.50531 4.78888L4.5 4.79419C4.40659 4.88791 4.35414 5.01483 4.35414 5.14715C4.35414 5.27947 4.40659 5.4064 4.5 5.50012L4.85344 5.85355C4.89987 5.89999 4.95499 5.93683 5.01566 5.96197C5.07633 5.9871 5.14136 6.00004 5.20703 6.00004C5.2727 6.00004 5.33773 5.9871 5.3984 5.96197C5.45907 5.93683 5.51419 5.89999 5.56063 5.85355L8.85344 2.56078C8.89988 2.51435 8.93672 2.45922 8.96185 2.39855C8.98699 2.33788 8.99992 2.27286 8.99992 2.20719C8.99992 2.14152 8.98699 2.07649 8.96185 2.01582C8.93672 1.95515 8.89988 1.90003 8.85344 1.8536L8.5 1.50016C8.40624 1.40647 8.27911 1.35383 8.14656 1.35383C8.01401 1.35383 7.88688 1.40647 7.79313 1.50016L7.78781 1.50547C7.14344 0.998293 6.23062 0.825795 5.29625 1.2361L4.69438 0.633922C4.39172 0.33124 4.00611 0.125107 3.5863 0.0415921C3.16649 -0.0419225 2.73134 0.000932932 2.33589 0.164739C1.94043 0.328544 1.60244 0.605942 1.36465 0.961849C1.12687 1.31776 0.999965 1.73619 1 2.16422V8.00009H0.5C0.367392 8.00009 0.240215 8.05277 0.146447 8.14653C0.0526784 8.2403 0 8.36748 0 8.50008V9.00008C0 9.13268 0.0526784 9.25986 0.146447 9.35363C0.240215 9.4474 0.367392 9.50007 0.5 9.50007H15.5C15.6326 9.50007 15.7598 9.4474 15.8536 9.35363C15.9473 9.25986 16 9.13268 16 9.00008V8.50008C16 8.36748 15.9473 8.2403 15.8536 8.14653C15.7598 8.05277 15.6326 8.00009 15.5 8.00009Z"
+												fill="#000"
+												fill-opacity="0.95"
+											/>
+										</svg>
+									</span>
+
+									8 Bathdrooms
+								</p>
+
+								<p class="m-0 d-flex flex-column align-items-center row-gap-1">
+									<span class="d-flex align-items-center" aria-hidden="true">
+										<svg
+											width="16"
+											height="15"
+											viewBox="0 0 16 15"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g opacity="0.75">
+												<rect
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="5.5"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="10"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+												<rect
+													x="11"
+													y="5"
+													width="4.75"
+													height="4.75"
+													rx="1"
+													fill="#000"
+													fill-opacity="0.95"
+												/>
+											</g>
+										</svg>
+									</span>
+
+									1500 sqft
+								</p>
+							</div>
+
+							<!-- Property Buttons Starts -->
+							<div
+								class="property__buttons d-flex flex-column column-gap-3 row-gap-2"
+							>
+								<a
+									href="#contact"
+									class="property__button btn btn-dark w-100 rounded-0"
+									>Book a Tour</a
+								>
+
+								<a
+									href="#"
+									class="property__button btn btn-outline-dark w-100 rounded-0"
+									>Check More</a
+								>
+							</div>
+							<!-- Property Buttons Ends -->
+						</div>
+					</article>
+				</div>
+				<!-- Properties Display Ends -->
+			</div>
+			<!-- Properties Container Ends -->
+		</section>
+		<!-- Properties Section Ends -->
+
+		<!-- Work Section Starts -->
+		<section class="work mt-4">
+			<div class="work__container container-xl px-0">
+				<div
+					class="work__information rounded-4 bg-black text-white p-4 p-sm-5 d-flex flex-column justify-content-center"
+				>
+					<h2 class="work__title display-2 text-center fw-medium mb-4">
+						Work With Us
+					</h2>
+
+					<p class="work__paragraph paragraph text-center mb-4">
+						We've been representing buyers and sellers for over twenty years and
+						we're the top-producing independently owned real estate company in
+						the country. Our devoted team of agents offers individualized
+						attention, personalized service, and tailor-made marketing.
+					</p>
+
+					<div class="d-flex justify-content-center">
+						<a class="work__button btn btn-light btn-lg" href="#contact"
+							>Contact Us</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Work Section Ends -->
+
+		<!-- Contact Section Starts -->
+		<section class="contact mt-4 scroll-top" id="contact">
+			<!-- Contact Container Starts -->
+			<div class="contact__container container-xl px-xl-0">
+				<div class="row g-0 justify-content-center row-gap-3 row-gap-lg-0">
+					<!-- Contact Information Starts -->
+					<div
+						class="contact__information col-lg-6 pe-lg-2 py-lg-3 d-flex flex-column justify-content-center"
+					>
+						<p class="paragraph fw-medium m-0">Contact</p>
+						<h2 class="contact__title fw-semibold display-4 mb-4">
+							We'd Love To Hear From You
+						</h2>
+
+						<p class="contact__paragraph paragraph fw-medium mb-3 text-gray">
+							Whether you're in search of a new residence or simply exploring
+							the area, we are here to assist you.
+						</p>
+
+						<!-- Form Starts -->
+						<form class="form" accept-charset="UTF-8">
+							<!-- Form Fieldset Starts -->
+							<fieldset class="form__fieldset">
+								<div class="form__field w-100 mb-3">
+									<label for="inputName" class="form-label">Name</label>
+									<input
+										type="text"
+										class="form-control rounded-0"
+										id="inputName"
+										placeholder="Full Name"
+										required
+									/>
+								</div>
+
+								<div class="form__field w-100 mb-3">
+									<label for="inputEmail1" class="form-label">Email</label>
+									<input
+										type="email"
+										class="form-control rounded-0"
+										id="inputEmail1"
+										pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+										title="Please enter a valid email, example: name@domain.com"
+										placeholder="Email Address"
+										aria-describedby="emailHelp"
+										required
+									/>
+									<p id="emailHelp" class="form-text">
+										We'll never share your email with anyone else.
+									</p>
+								</div>
+
+								<div class="form__field w-100 mb-3">
+									<label for="formControlTextarea" class="form-label"
+										>Message</label
+									>
+									<textarea
+										class="form-control rounded-0"
+										id="formControlTextarea"
+										rows="5"
+									></textarea>
+								</div>
+
+								<button type="submit" class="btn btn-dark btn-lg rounded-0">
+									Submit
+								</button>
+							</fieldset>
+							<!-- Form Fieldset Ends -->
+						</form>
+						<!-- Form Ends -->
+					</div>
+					<!-- Contact Information Ends -->
+
+					<div class="contact__picture col-lg-6 overflow-hidden ps-lg-2">
+						<picture class="h-100">
+							<source
+								srcset="./images/contact__images/contact.webp"
+								type="image/webp"
+							/>
+							<img
+								class="contact__image d-block img-fluid h-100 w-100 object-fit-cover object-position-center"
+								src="./images/contact__images/contact.jpg"
+								alt="Living room of a house"
+								loading="lazy"
+								width="502"
+								height="802.22"
+							/>
+						</picture>
+					</div>
+				</div>
+			</div>
+			<!-- Contact Container Ends -->
+		</section>
+		<!-- Contact Section Ends -->
+
+		<!-- Footer Section Starts -->
+		<footer class="footer mt-4">
+			<!-- Footer Suscribe Starts -->
+			<div class="footer__suscribe">
+				<div class="container-xl px-xl-0">
+					<div class="row g-0 justify-content-center row-gap-3 row-gap-lg-0">
+						<div
+							class="d-flex flex-column justify-content-center col-lg-6 pe-lg-2"
+						>
+							<p
+								class="footer__paragraph paragraph fw-medium m-0 text-center text-lg-start"
+							>
+								Suscribe
+							</p>
+							<h2
+								class="footer__title fw-bold display-5 text-center text-lg-start"
+							>
+								We help you find your dream home and negotiate a great deal!
+							</h2>
+
+							<form class="footer__form" action="#" autocomplete="off">
+								<div
+									class="d-flex justify-content-center justify-content-lg-start column-gap-2"
+								>
+									<div class="footer__field w-75">
+										<label class="visually-hidden" for="autoSizingInput"
+											>Email</label
+										>
+										<input
+											type="email"
+											class="form-control rounded-0"
+											id="autoSizingInput"
+											pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+											title="Please enter a valid email, example: name@domain.com"
+											placeholder="Enter your email"
+											required
+										/>
+									</div>
+
+									<div class="footer__submit">
+										<button type="submit" class="btn btn-dark rounded-0 w-100">
+											Suscribe
+										</button>
+									</div>
+								</div>
+
+								<p
+									class="footer__terms mt-2 mb-0 text-center text-lg-start text-gray"
+								>
+									By subscribing you agree to our
+									<a class="text-decoration-underline" href="#"
+										>Privacy Policy</a
+									>
+									and provide consent to receive updates from our company.
+								</p>
+							</form>
+
+							<div
+								class="footer__social d-flex justify-content-center justify-content-lg-start column-gap-4 column-gap-lg-3 mt-4"
+							>
+								<a href="#" target="_blank" rel="noopener noreferrer"
+									><img
+										class="footer__icon"
+										src="./images/footer_images/facebook.png"
+										alt="Facebook icon"
+										width="25"
+										height="25"
+										loading="lazy"
+								/></a>
+
+								<a href="#" target="_blank" rel="noopener noreferrer"
+									><img
+										class="footer__icon"
+										src="./images/footer_images/instagram.png"
+										alt="Instagram icon"
+										width="25"
+										height="25"
+										loading="lazy"
+								/></a>
+
+								<a href="#" target="_blank" rel="noopener noreferrer"
+									><img
+										class="footer__icon"
+										src="./images/footer_images/tiktok.png"
+										alt="Tiktok icon"
+										width="25"
+										height="25"
+										loading="lazy"
+								/></a>
+
+								<a href="#" target="_blank" rel="noopener noreferrer"
+									><img
+										class="footer__icon"
+										src="./images/footer_images/youtube.png"
+										alt="Youtube icon"
+										width="25"
+										height="25"
+										loading="lazy"
+								/></a>
+
+								<a href="#" target="_blank" rel="noopener noreferrer"
+									><img
+										class="footer__icon"
+										src="./images/footer_images/whatsapp.png"
+										alt="Whatsapp icon"
+										width="25"
+										height="25"
+										loading="lazy"
+								/></a>
+							</div>
+						</div>
+
+						<div class="footer__picture col-lg-6 overflow-hidden ps-lg-2">
+							<img
+								class="footer__image d-block img-fluid h-100 w-100 object-fit-cover object-position-center"
+								src="./images/footer_images/footer.png"
+								alt="Woman smiling image"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Suscribe Ends -->
+
+			<!-- Footer Information Starts -->
+			<div class="footer__information bg-black">
+				<div class="container-xl px-xl-0">
+					<div
+						class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-end row-gap-3 row-gap-md-0 py-4"
+					>
+						<div class="footer__company text-center text-md-start">
+							<h2 class="h2 text-white fw-bold">Rated Property</h2>
+							<p class="footer__copyright m-0 text-gray">
+								&copy 2025 Rated Property All Rights Reserved
+							</p>
+						</div>
+
+						<div
+							class="footer__links d-flex flex-column justify-content-center text-center text-gray"
+						>
+							<a class="footer__link" href="#">Terms of Service</a>
+							<a class="footer__link" href="#">Privacy Policy</a>
+							<a class="footer__link" href="#">Resources</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Information Ends -->
+		</footer>
+		<!-- Footer Section Ends -->
+
+		<!-- Scripts Section Starts -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+
+		<script src="./scripts/formatImageIdentifier.js" defer></script>
+
+		<script src="./scripts/app.js" defer></script>
+		<!-- Scripts Section Ends -->
+	</body>
+</html>
